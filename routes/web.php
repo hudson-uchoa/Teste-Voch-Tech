@@ -17,4 +17,7 @@ Route::get('/', 'FiltrosController@index')->name('index');
 
 Route::prefix('/filtros')->group(function () {
     Route::get('/grupoEconomico', 'FiltrosController@gruposEconomicos')->name('filtros.grupoEconomico');
+    Route::get('/bandeira', 'FiltrosController@bandeiras')->name('filtros.bandeira');
+    Route::get('/unidade', 'FiltrosController@unidades')->name('filtros.unidade');
+    Route::get('/funcionario', 'FiltrosController@funcionarios')->name('filtros.funcionario');
 });
