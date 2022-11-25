@@ -1,0 +1,7 @@
+/* -------------------- select Padrão -------------------- */
+.selectBuscas, .selectBuscas:focus, .selectBuscas:active {
+    border: solid 1px #c6c6c6;
+    -webkit-box-shadow: 0px 1px 3px 0px #c6c6c6;
+    -moz-box-shadow: 0px 1px 3px 0px #c6c6c6;
+    box-shadow: 0px 1px 3px 0px #c6c6c6;
+}
