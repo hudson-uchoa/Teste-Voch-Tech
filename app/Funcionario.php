@@ -10,5 +10,11 @@ class Funcionario extends Model
         'gec_id', 'ban_id', 'uni_id', 'fun_nome', 'fun_documento', 'fun_celular', 'fun_ativo'
     ];
 
+
     protected $table = 'funcionario';
+
+    public function unidade()
+    {
+        return $this->hasOne('App\Unidade');
+    }
 }
